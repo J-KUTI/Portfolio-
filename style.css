@@ -71,9 +71,9 @@ css
   }
 }
 .image{
-  background-image: url(/image/kuti\ 2022.jpg);
+  background-image: url(./image/kuti\ 2022.jpg);
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat:no-repeat;
   height: 600px;
   border-radius: 10px;
   animation: zoomBg 30s infinite alternate;
