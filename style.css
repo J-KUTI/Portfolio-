@@ -72,7 +72,7 @@ css
   }
 }
 .image{
-  background-image: url(/image/kuti\ 2022.jpg);
+  background-image: url(./image/kuti\ 2022.jpg);
   background-size: cover;
   background-repeat: repeat;
   height: 600px;
