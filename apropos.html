@@ -1,27 +1,58 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A propos</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
+    <header>
+        <nav class="navbar">
+        <div class="logo"><span>JMK</span> KUTI</div>
+        <ul class="nav-links" id="navLinks">
             <li><a href="index.html">Accueil</a></li>
-                <li><a href="apropos.html">A propos</a></li>
-                <li><a href="projet.html">Mes projets</a></li>
-                <li><a href="message.html">Message</a></li>
-            </ul>
+            <li><a href="apropos.html">A propos</a></li>
+            <li><a href="#projets.html">Mes Projets</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">☰</div>
         </nav>
-    </div>
-    <section>
-        <h1>A propos de Moi</h1>
-        <p> je me nomme <strong>kuti mbenga jean marie</strong> étudiant a l'université protestante au congo <strong>(UPC)</strong> passionné du reseau informatique.</p>
-        <p>certificat de fin d'étude primaire en 2018 <br>Diplomé en 2024 dans la section technique option commerciale de gestion.</p>
-        <p>travaille à <strong>U-Report</strong> plate forme de l'<strong>Unicef</strong> qui permet au jeunes de faire entendre leurs voies et de resoudre les problemes qui se passe dans leurs communautés.</p>
-        <p>j'ai travaillé pendant 3ans avec ce travail bénévole; dont j'ai acquis beaucoup des choses et J'ai eu la chance de participer dans des formations comme: <br> -l'importance de la vaccination <br>- formation sur les maladies contagieuse et comment se proteger, <br>- comment lutter contre la corruption.  </p>
+    </header>
+    <section id="apropos">
+        <h2>A propos</h2>
+        <p>Dans ce porfolio je veux vous presenter mes projets, mes compétences et vous serez également en mesure de me contacter et m'envoyer un message</p>
+        <p>Je m’appelle Kuti. J’ai effectué mes études primaires et secondaires au <strong>complexe scolaire la gloire de l’éternel,</strong> 
+            ou j’ai obtenu à la fois mon certificat de Fin d’études primaires et mon Diplôme d’Etat, avec un score de 64%. 
+            <br>Depuis le 15 octobre 2024, <strong>je suis étudiant à l’université protestante au Congo (UPC). <br></strong> En parallèle, je travaille avec <strong>U-Report une plateforme de l’UNICEF</strong> qui permet aux jeunes de faire entendre leurs voix et de contribuer à la résolution des problèmes dans leurs communautés. Je suis également engagé dans le bénévolat depuis maintenant 3 ans, avec la volonté de participer activement au développement social.</p>
     </section>
+
+    <div class="photos">
+        <div class="photo">
+            <img src="./image/U-report.jpg" alt="groupe U-report">
+            <p>Communautés U-report Ngaliema, <br> voici les jeunes U-Reporter qui font le travail bénevole pour le bien etre de la communautés.</p>
+        </div>
+        <div class="photo">
+            <img src="./image/kuti inter.jpg" alt="intervation">
+            <p>Mon intervation dans l'activité de la semaine africaine de la vaccination.</p>
+        </div>
+        <div class="photo">
+            <img src="./image/jm la gloire.jpg" alt="la gloire">
+            <p>En quatre des humanité, fin d'études secondaire aux C.S la gloire de l'éternel</p>
+        </div>
+    </div>
+    <div class="video">
+        <video controls width="500" height="500">
+            <source src="./VID-20250526-WA0008.mp4" type="video/mp4">
+        </video>
+        <p>Travail au Centre de Recherche en Intelligence Artificielle et Génie informatique</p>
+    </div>
 </body>
+<script>
+    // JS simple pour le menu mobile
+    document.getElementById('menuToggle').onclick = function () {
+      document.getElementById('navLinks').classList.toggle('active');
+    };
+  </script>
 </html>
