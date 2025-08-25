@@ -213,7 +213,9 @@ footer{
   text-align: center;
 
 }
-.icone{
+.icones{
   text-align: center;
-  font-family:impact, Haettenschweiler, 'Arial Narrow bold', sans-serif;
+  justify-content:center;
+  border: 2px solid #000;
+  gap:25px;
 }
