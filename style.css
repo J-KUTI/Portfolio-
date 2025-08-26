@@ -235,3 +235,7 @@ footer{
 .icon:hover{
   transform: translateY(-10px);
 }
+.icon a{
+  list-style:none;
+  color:blue;
+}
