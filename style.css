@@ -232,3 +232,6 @@ footer{
   height:60px;
   margin-buttom:1rem;
 }
+.icon:hover{
+  transform: translateY(-10px);
+}
