@@ -228,5 +228,7 @@ footer{
   text-align: center;
 }
 .icon img{
-  
+  width: 60px;
+  height:60px;
+  margin-buttom:1rem;
 }
