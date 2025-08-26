@@ -224,6 +224,9 @@ footer{
   border-radius:10px;
   box-shaddow:0 4px 10px rgba(0, 0, 0, 0.1);
   padding:1.3rem;
-  width:230px;
+  width:250px;
   text-align: center;
+}
+.icon img{
+  
 }
