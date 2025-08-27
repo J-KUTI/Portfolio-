@@ -231,6 +231,7 @@ footer{
   width: 65px;
   height:65px;
   margin-buttom:1rem;
+  color:blue;
 }
 .icon:hover{
   transform: translateY(-10px);
@@ -239,4 +240,7 @@ footer{
   list-style:none;
   text-decoration:none;
   color:blue;
+}
+.icon a:hover{
+  background-color:rgb(214, 189, 47);
 }
