@@ -246,3 +246,12 @@ footer{
   padding: 3px 4px;
   border-radius:4px;
 }
+
+.image-etude{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 400px;
+  animation: changeImage 10s infinete;
+}
