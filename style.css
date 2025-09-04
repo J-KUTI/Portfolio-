@@ -255,3 +255,9 @@ footer{
   height: 400px;
   animation: changeImage 10s infinete;
 }
+@keyframes{
+  0%{background-image: url();}
+  33%{background-image: url();}
+  66%{background-image: url();}
+  100%
+}
