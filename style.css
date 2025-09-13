@@ -261,4 +261,11 @@ footer{
   66%{background-image: url(./image/upc.jpg);}
   100%{background-image: url(./image/début upc.jpeg);}
 }
+.image-projet{
+  background-size: cover;
+  background-position: center;
+  background-repaet: no-repaet;
+  height: 500px;
+  animation: changeImageProjet 10s infinete;
+}
   
