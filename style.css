@@ -253,13 +253,13 @@ footer{
   background-repeat: no-repeat;
   border-radius: 10px;
   height: 400px;
-  animation: changeImageEtude 10s infinite;
+  animation:changeImageEtude 10s infinite;
 }
 @keyframes changeImageEtude {
-  0%{background-image: url(./image/la gloire.jpg);}
-  33%{background-image: url(./image/sixième.jpg);}
-  66%{background-image: url(./image/upc.jpg);}
-  100%{background-image: url(./image/début upc.jpeg);}
+  0%{background-image: url("./image/la gloire.jpg");}
+  33%{background-image: url("./image/sixième.jpg");}
+  66%{background-image: url("./image/upc.jpg");}
+  100%{background-image: url("./image/début upc.jpeg");}
 }
 .image-projet{
   background-size: cover;
