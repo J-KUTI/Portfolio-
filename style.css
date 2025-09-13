@@ -268,4 +268,10 @@ footer{
   height: 500px;
   animation: changeImageProjet 10s infinete;
 }
+@keyframes ChangeImageProjet{
+  0%{background-image: url(./image/upc.jpg);}
+  33%{background-image: url(./image/kuti\inter.jpg);}
+  66%{background-image: url(./image/début upc.jpeg);}
+  100%{background-image: url(./image/sixième.jpg);}
+}
   
