@@ -253,7 +253,7 @@ footer{
   background-repeat: no-repeat;
   border-radius: 10px;
   height: 400px;
-  animation: changeImageEtude 10s infinete;
+  animation: changeImageEtude 10s infinite;
 }
 @keyframes changeImageEtude {
   0%{background-image: url(./image/la gloire.jpg);}
@@ -266,7 +266,7 @@ footer{
   background-position: center;
   background-repaet: no-repaet;
   height: 500px;
-  animation: changeImageProjet 10s infinete;
+  animation: changeImageProjet 10s infinite;
 }
 @keyframes ChangeImageProjet{
   0%{background-image: url(./image/upc.jpg);}
