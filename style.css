@@ -248,30 +248,32 @@ footer{
 }
 
 .image-etude{
+  background-image: url(./image/sixième.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 10px;
-  height: 400px;
+  height: 600px;
   animation:changeImageEtude 10s infinite;
 }
-@keyframes changeImageEtude {
+/*@keyframes changeImageEtude {
   0%{background-image: url("./image/la gloire.jpg");}
   33%{background-image: url("./image/sixième.jpg");}
   66%{background-image: url("./image/upc.jpg");}
   100%{background-image: url("./image/début upc.jpeg");}
-}
+}*/
 .image-projet{
+  background-image: url(./image/début upc.jpeg);
   background-size: cover;
   background-position: center;
   background-repaet: no-repaet;
   height: 500px;
   animation: changeImageProjet 10s infinite;
 }
-@keyframes ChangeImageProjet{
+/*@keyframes ChangeImageProjet{
   0%{background-image: url(./image/UPC.jpg:}
   33%{background-image: url(./image/kuti\inter.jpg);}
   66%{background-image: url(./image/début upc.jpeg);}
   100%{background-image: url(./image/sixième.jpg);}
-}
+}*/
   
