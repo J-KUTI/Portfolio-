@@ -256,7 +256,7 @@ footer{
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 10px;
-  height: 600px;
+  height: 450px;
   animation:changeImageEtude 10s infinite;
 }
 /*@keyframes changeImageEtude {
