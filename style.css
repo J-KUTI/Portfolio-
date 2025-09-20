@@ -280,23 +280,28 @@ footer{
   100%{background-image: url(./image/sixième.jpg);}
 }*/
 .corp-apro{
+  margin: 0;
+  padding: 0;
   background-color:#0A192F;
 }
-.corp-apro h2 p {
+.corp-apro h2,
+.corp-apro p {
   color: white;
 }
 #etude{
   background-color:#0A192F;
   border-radius: 10px;
 }
-#etude h2 p{
+#etude h2,
+#etude p {
   color: white;
 }
 .compe{
   background-color:#0A192F;
   border-radius: 10px;
 }
-.compte h2 p{
+.compte h2,
+.comote p {
   color: white;
 }
   
