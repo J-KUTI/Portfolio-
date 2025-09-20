@@ -279,4 +279,10 @@ footer{
   66%{background-image: url(./image/début upc.jpeg);}
   100%{background-image: url(./image/sixième.jpg);}
 }*/
+.corp-apro{
+  background-color:#0A192F;
+}
+.corp-apro p {
+  color: white;
+}
   
