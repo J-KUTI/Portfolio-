@@ -294,14 +294,16 @@ footer{
 }
 #etude h2,
 #etude p {
+  margin: 5px;
   color: white;
 }
 .compe{
   background-color:#0A192F;
   border-radius: 10px;
 }
-.compte h2,
-.comote p {
+.compe h2,
+.compe p {
+  margin: 5px;
   color: white;
 }
   
