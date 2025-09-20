@@ -306,4 +306,13 @@ footer{
   margin: 5px;
   color: white;
 }
+#pro{
+  background-color:#0A192F;
+  border-radius: 10px;
+}
+#pro h2,
+#pro p {
+  margin: 5px;
+  color: white;
+}
   
