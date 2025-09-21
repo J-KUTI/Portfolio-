@@ -273,6 +273,9 @@ footer{
   height: 500px;
   animation: changeImageProjet 10s infinite;
 }
+#projet h1 {
+  font-size: 1.7rem;
+}
 /*@keyframes ChangeImageProjet{
   0%{background-image: url(./image/UPC.jpg:}
   33%{background-image: url(./image/kuti\inter.jpg);}
