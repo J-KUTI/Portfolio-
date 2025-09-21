@@ -322,4 +322,12 @@ footer{
   margin: 5px;
   color: white;
 }
+#vision{
+  background-color:#0A192F;
+}
+#vision h2,
+#vision p {
+  margin: 5px;
+  color: white;
+}
   
