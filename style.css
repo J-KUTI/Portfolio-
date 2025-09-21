@@ -279,6 +279,13 @@ footer{
   66%{background-image: url(./image/début upc.jpeg);}
   100%{background-image: url(./image/sixième.jpg);}
 }*/
+.image-visi{
+  background-image: url(./image/);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
 .corp-apro{
   margin: 0;
   padding: 0;
