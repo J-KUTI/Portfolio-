@@ -213,6 +213,9 @@ footer{
   text-align: center;
 
 }
+footer h2{
+  font-size: 1.7rem;
+}
 .icones{
   display: flex;
   flex-wrap: wrap;
