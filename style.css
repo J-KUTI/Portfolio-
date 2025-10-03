@@ -215,6 +215,7 @@ footer{
 }
 footer h2{
   font-size: 1.7rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .icones{
   display: flex;
