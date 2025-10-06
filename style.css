@@ -208,7 +208,7 @@ footer{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: white;
   background-color: black;
-  border-radius: 8px;
+  border-radius: 7px;
   padding: 5px 10px;
   text-align: center;
 
@@ -248,7 +248,7 @@ footer h2{
 .icon a:hover{
   background-color:rgb(214, 189, 47);
   padding: 3px 4px;
-  border-radius:4px;
+  border-radius:5px;
 }
 .phrase{
   font-size: 1.7rem;
